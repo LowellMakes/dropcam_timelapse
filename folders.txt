@@ -1,0 +1,3 @@
+/p/lowellMakes/lounge
+/p/lowellMakes/bikeshop
+/p/lowellMakes/woodshop
