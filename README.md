@@ -9,8 +9,24 @@ Requirements:
 - ImageMagick (specifically the compare program needs to be in the path)
 
 ====
-To use: edit dropcam_get.pl to set the drop cams UUID values to the uuids you want to capture.  Dropcam must be made public for this to work.
-Change:
-$dropcam_key1 = "<insert dropcam uuid>";
-To:
-$dropcam_key1 = "001122334455abcdef01012";
+Setup:
+- Edit cams.txt
+Format is <path>:<cam uuid>
+
+Run:
+./dropcam_get.pl
+or
+perl dropcam_gel.pl
+
+====
+Merge images from multiple cameras into a single combined image set.
+
+Setup:
+- Edit folders.txt
+Format is <folder_path> on each line
+
+Run:
+./generate_combined.pl
+or
+perl generate_combined.pl
+
