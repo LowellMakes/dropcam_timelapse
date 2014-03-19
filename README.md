@@ -23,7 +23,7 @@ Merge images from multiple cameras into a single combined image set.
 
 Setup:
 - Edit folders.txt
-Format is <folder_path> on each line
+Format is &lt;folder_path&gt; on each line
 
 Run:
 ./generate_combined.pl
